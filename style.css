@@ -11,7 +11,13 @@ a{
     text-decoration: none;
 }
 p{
-    font-family: Roboto;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
 }
 /* ----------------------------------------------------------------------NAVIGATION-BAR------------------------------------------------------------------------ */
 
@@ -89,7 +95,6 @@ p{
     width: 240px;
 }
 .first-bt-h1{
-    font-family: 'Montserrat', sans-serif;
     font-size: 65px;
     font-weight: bolder;
 }
@@ -104,7 +109,6 @@ p{
     margin: 0px 20px;
 }
 .first-bt-p{
-    font-family: Roboto;
     font-size: 20px;
 }
 .container-1{
@@ -131,7 +135,6 @@ p{
     padding-top: 50px;
 }
 .port-h1{
-    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: 45px;
 }
@@ -304,7 +307,6 @@ p{
     font-weight: bolder;
 }
 .cols-p{
-    font-family: 'Roboto';
     font-size: 17px;
     text-align: start;
 }
@@ -351,7 +353,6 @@ p{
 }
 .form-floating{
     border-bottom: 1px solid rgba(0, 0, 0, 0.048);
-    font-family: 'Roboto';
     max-width: 700px;
     /* height: 80px; */
     padding: 0px!important;
@@ -364,11 +365,13 @@ p{
 }
 .form-floating label{
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
     padding-bottom: 20px;
     font-weight: bold;
     opacity: 0.4;
 }
 .form-floating input{
+    font-family: 'Poppins', sans-serif;
     border: unset;
     border-radius: unset;
 }
@@ -376,6 +379,7 @@ p{
     border:unset;
     border-radius: unset;
     -webkit-appearance: none;
+    font-family: 'Poppins', sans-serif;
     -ms-appearance: none;
     -moz-appearance: none;
     resize: none;
@@ -402,7 +406,6 @@ p{
 }
 .contact-form .btn{
     background-color: #1ed8b3!important;
-    font-family: 'Roboto';
     color: white;
     font-size: 20px;
     width: 100px;
@@ -436,12 +439,10 @@ p{
     font-weight: bolder;
 }
 .foot-p{
-    font-family: 'Roboto';
     font-size: 20px;
     /* width: 370px;    */
 }
 .foot-p a{
-    font-family: 'Roboto';
     color: #1abc9c;
 }
 .foot-p a:hover{
